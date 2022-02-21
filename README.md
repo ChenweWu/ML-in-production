@@ -1,3 +1,6 @@
+
+All credits to Aissam Outchakoucht
+
 # ML-in-production
 
 In this tutorial we will try to walk together through all the building blocks of a Machine/Deep Learning project in production, i.e. a model that people can actually interact with
@@ -52,7 +55,6 @@ Once this is running, you should be able to view your app running in your browse
 ```
 http://localhost:5000/upload
 ```
-All credits to Aissam Outchakoucht
 
 # Contact
 
