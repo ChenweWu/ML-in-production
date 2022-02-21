@@ -4,8 +4,8 @@ from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from keras.applications.vgg19 import preprocess_input
 from keras.applications.vgg19 import decode_predictions
-
-model = tf.keras.models.load_model('./weights/my_model.h5', compile=False)
+import os
+model = tf.keras.models.load_model(os.path.join(os.getcwd(),'/weights/my_model.h5'), compile=False)
 
 def process_image(image):
     '''
