@@ -9,5 +9,6 @@ COPY . .
 # Install dependencies
 RUN python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
+EXPOSE 8888
 # Run
 CMD ["python","upload.py"]
